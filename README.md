@@ -1,14 +1,14 @@
 # CM3D2-autodlc
 Script to ease CM3D2 DLC installation.
 
-Installing the DLC packs are tedious, aren't they? While there is a way to make an all in one installer, it too, seemed tiring. So, I put together a script to do it for me. I am not an experienced programmer, I just brought together bits and pieces from here and there. It worked for me, and if you follow the guidelines below, I don't see why it shouldn't for you. However, I recommend you start with just one or two, to make sure it works.
+Installing the DLC packs are tedious, aren't they? So, I put together a script to do it for me. I am not an experienced programmer, I just brought together bits and pieces from here and there. It worked for me, and if you follow the guidelines below, I don't see why it shouldn't for you. However, I recommend you start with just one or two, to make sure it works.
 
 __NOTES-__ 
 <ul>
 <li>Use only for DLC packs which do not need to come in order. 
 <li>That means, install the updates manually, and the Plus Acts in order, by yourself. They aren't that many.
-<li>Script is written w.r.t Python2.7.
-<li>You need ONE other library, pyautogui.
+<li>Script is written w.r.t `Python2.7`.
+<li>You need ONE other library, `pyautogui`.
 <li>Install using- `pip install pyautogui`
 <li>Ensure that your System Locale is set to Japan. This is important, so that we don't end up with any errors.
 </ul>
@@ -16,9 +16,9 @@ __NOTES-__
 **Now, the actual installation.**
 <ul>
 <li>Read the script comments to find as to where your mouse should be, and also, how to find it.
-<li>Put the script in a folder somewhere convenient. Say ../Desktop/cmupdates/
-<li>Unpack the archives into a folders of their own, and put it in the cmupdates folder
-<li>Open a cmd window with admin privileges, and navigate to the cmupdates folder
+<li>Put the script in a folder somewhere convenient. Say `../Desktop/cmupdates/`.
+<li>Unpack the archives into a folders of their own, and put it in the `cmupdates` folder.
+<li>Open a cmd window with admin privileges, and navigate to the `cmupdates` folder.
 <li>Run- `python script.py`
 <li>Sit back, watch it happen. Don't touch anything until it's done.
 </ul>
